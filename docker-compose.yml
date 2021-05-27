@@ -1,5 +1,6 @@
 version: '3'
 services:
+   tomcat-server:
      image: test_image
      container_name: tomcat-server
      ports:
